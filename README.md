@@ -1,6 +1,6 @@
 # simpleGraphViewer
 
-This is an extremly lightweight graph viewer (1.1M). Rather than heavy analysis it is designed to get q quick overview of the topology of simple graphs. It is written using D3 and so there are no limits to extending its function.
+This is an extremly lightweight graph viewer (~1Mb). Rather than heavy analysis it is designed to get q quick overview of the topology of simple graphs. It is written using D3 and so there are no limits to extending its function.
 
 To install just download the repository:
 ```
