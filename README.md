@@ -39,3 +39,5 @@ perl parseGraph.pl ego-facebook/out.ego-facebook > large.json
 ##Canvas Vs SVG
 For larger graphs you might want to try out the ```canvas.html``` page which renders to canvas instead of the expensive DOM manipulation that comes with using SVG.
 
+##ToDo
+* Increase performance by offloading computations to GPU
