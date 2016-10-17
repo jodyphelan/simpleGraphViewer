@@ -26,6 +26,7 @@ my $edge;
 my $node;
 open F, $ARGV[0] or die;
 while(<F>){
+	if ($_ =~ /%/){next;}
 	chomp;
 	my ($s,$t) = (split /\s+/,$_)[0,1];
 	$edge .= "\n\t\t{\"source\":\"$s\",\"target\":\"$t\"},";
