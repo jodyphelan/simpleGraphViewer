@@ -28,7 +28,7 @@ For larger graphs you might want to try out the ```canvas.html``` page which ren
 
 I have included a parser for the graphs hosted on KONECT graph database. Try download one of their graphs and test the limits of this graph visualisation:
 ```
-curl http://konect.uni-kblenz.de/downloads/tsv/ego-facebook.tar.bz2 > facebook.tar.bz2
+curl http://konect.uni-koblenz.de/downloads/tsv/ego-facebook.tar.bz2 > facebook.tar.bz2
 tar -xf facebook.tar.bz2
 perl parseGraph.pl ego-facebook/out.ego-facebook > large.json 
 ```
