@@ -1,5 +1,7 @@
 # simpleGraphViewer
 
+This is an extremly lightweight graph viewer (1.1M). Rather than heavy analysis it is designed to get q quick overview of the topology of simple graphs. It is written in D3 and so there are no limits to extending its function.
+
 To install just download the repository:
 ```
 git clone https://github.com/jodyphelan/simpleGraphViewer.git
@@ -25,7 +27,7 @@ The basic definition of your graph should be:
 You can add attributes like: ```col``` and ```shape``` to the node difinitions.
 
 
-##QUICKSTART
+##No data yet?
 
 I have included a parser for the graphs hosted on KONECT graph database. Try download one of their graphs and test the limits of this graph visualisation:
 ```
