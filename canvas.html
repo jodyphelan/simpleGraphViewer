@@ -44,6 +44,7 @@ var graphWidth =  window.innerWidth;
 var graphCanvas = d3.select('#graphDiv').append('canvas')
 .attr('width', graphWidth + 'px')
 .attr('height', height + 'px')
+.style('background-color', "black")
 .node();
 
 var context = graphCanvas.getContext('2d');
@@ -148,7 +149,9 @@ d3.json("large.json",function(error,data){
             context.beginPath();
             context.moveTo(d.source.x, d.source.y);
             context.lineTo(d.target.x, d.target.y);
+            context.strokeStyle = "white"
             context.stroke();
+
         });
 
         // Draw the nodes
@@ -156,7 +159,7 @@ d3.json("large.json",function(error,data){
 
             context.beginPath();
             context.arc(d.x, d.y, radius, 0, 2 * Math.PI, true);
-            context.fillStyle = d.col ? "red":"black"
+            context.fillStyle = d.col ? "red":"white"
             context.fill();
         });
 

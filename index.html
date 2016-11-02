@@ -93,7 +93,7 @@ d3.json("data.json",function(error,data){
                   .attr("d", d3.symbol()
                     .type(function(d) { return symbolScale(d.shape); })
                     .size(function(d) {
-                      if (d.size){ return d.size;}
+                      if (d.size){ return d.size*10;}
                       else {return 200;}
                     })
                   )
